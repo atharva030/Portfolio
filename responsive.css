@@ -1,0 +1,90 @@
+/* media queries  */
+
+@media (max-width:1200px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        padding:1rem 4rem;
+    }
+
+}
+
+@media (max-width:991px){
+
+   header{
+       left:-120%;
+       transition: all 0.7s ease-out;
+   }
+   #burger{
+    display: block;
+}
+
+
+   header.toggle{
+    left:0%;
+   }
+
+   body{
+       padding:0;
+   }
+
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+    .contact .row{
+        flex-direction: column;
+
+    }
+    .contact .row.form{
+        margin: 100%;
+    }
+ }
+
+@media (max-width:400px){
+
+    header{
+        width: 100vw;
+    }
+
+    .heading{
+        margin:0 3rem;
+    }
+
+    .about .row .container-Ed-to-end .box{
+        width: 90%;
+    }
+ 
+    .education .box-container .box{
+        width:100%;
+    }
+
+    .projects .box-container .box span{
+        padding: 3.2rem 0;
+    }
+        
+    .projects .box-container .box{
+        width:100%;
+        height: 30rem;
+    }
+
+    .contact .row form{
+        margin:3rem 0;
+    }
+
+ }
+ 
+ @media (max-width:300px){
+ .projects .box-container .box span{
+    padding: 3.2rem 0;
+}
+.projects .box-container .box{
+    height: 25rem;
+}
+ }
